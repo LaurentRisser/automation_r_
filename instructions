@@ -1,0 +1,11 @@
+#load the function:
+source("C:/Users/s0047576/Desktop/Script/automated_count.R")
+
+# name your file and the path where it is saved (and where the output will be saved):
+counts(file_name = "input_file.csv", path_to_file = "C:/Users/s0047576/Desktop/Script/")
+
+# same for the stats function; load:
+source("C:/Users/s0047576/Desktop/Script/automated_stats.R")
+
+  # name your file and the path where it is saved (and where the output will be saved):  
+stats(file_name = "input_file.csv", path_to_file = "C:/Users/s0047576/Desktop/Script/")
